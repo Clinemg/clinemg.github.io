@@ -1,0 +1,31 @@
+body{
+    background-color: purple;
+}
+h1 {
+    background-color: lightsteelblue;
+}
+p {
+    color: lightyellow;
+}
+.fancy {
+    text-transform: uppercase;
+    color: burlywood;
+    font-size: 2em;
+    border: 10px solid darkolivegreen;
+    padding: 10px;
+    margin: 100px;
+    background-color: darkred;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dave{
+    width: 100px;
+    color: deepskyblue;
+    line-height: 1.4em;
+    font-weight: bold;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+#fala{
+    font-size: 1.4em;
+    font-family: 'Luxurious Roman', cursive;
+}
