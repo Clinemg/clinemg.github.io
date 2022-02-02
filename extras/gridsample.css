@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+  /*  color: white; */
+}
+h1{
+    color: white;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.frog-color{
+    background-color: green;
+}
+.jump{
+    background-color: yellow;   
+}
+.eating{
+    background-color: brown;
+}
+.jump div {
+    text-align: center      ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
