@@ -42,7 +42,7 @@ main section{
 }
 header{
     background-color: #348AA7;
-    font-family: "Architects Daughter";
+    font-family: "Architects Daughter", "Bradley Hand", "Comic Sans MS";
 }
 .book, .join{
     background-color: #348AA3;
@@ -64,7 +64,7 @@ header{
 }
 .home-title{
     color:#2C2A4A;
-    font-family: "Architects Daughter";
+    font-family: "Architects Daughter", "Bradley Hand", "Comic Sans MS";
     font-size: 2em;
     margin-top: 10px;
 }
@@ -80,7 +80,7 @@ header{
 
 .msg h2{
     color:#2C2A4A;
-    font-family: "Architects Daughter";
+    font-family: "Architects Daughter", "Bradley Hand", "Comic Sans MS";
 }
 .msg p{
     color:#2C2A4A;
@@ -94,7 +94,7 @@ h4{
 }
 h2{
     color:#2C2A4A;
-    font-family: "Architects Daughter";
+    font-family: "Architects Daughter", "Bradley Hand", "Comic Sans MS";
     margin: 0;
 }
 .rivers-card, .camping-card, .rapids_card{
