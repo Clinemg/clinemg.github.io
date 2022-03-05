@@ -2,7 +2,10 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
+
+    
 }
+
 #background{
     height: 725px;
     background-color: #348AA7;
@@ -200,6 +203,32 @@ footer .social img{
 nav {
     display: flex;
     justify-content: space-around;
+
+}
+.title { 
+    background-color: #348AA7;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin:50px auto;
+    text-align: center;
+    font-family: "Architects Daughter", "Bradley Hand", "Comic Sans MS";
+    color: #2C2A4A; 
+    max-width: 1400px;
+    
+}
+.Rivers{
+ margin: auto;
+ display: block;
+}
+.info h1{ 
+    text-align: center;
+    font-family: "Architects Daughter", "Bradley Hand", "Comic Sans MS";
+    color: #2C2A4A; 
+}
+.info p{
+    color:#2C2A4A;
+    font-family:  Lato, "Montserrat", sans-serif;
+    padding-bottom: 15px;
 }
 
 @media screen and (max-width: 900px) {
