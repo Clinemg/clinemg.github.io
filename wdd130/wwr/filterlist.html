@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Oar Rivers</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a target="_self" href="index.html" id="logo_link">
+            <img class="logo" src="images/LOGO@.png" alt="Dry Oar Logo"></a>
+        
+            <nav>
+                <a  target="_self" href="index.html">Home</a>
+                <a  target="_self" href="rivers.html">Rivers</a>
+                <a  target="_self" href="site-plan-rafting.html">Site Plan</a>
+                <a  target="_self" href="contactus.html">Contact Us</a>
+                
+            </nav>
+        </header>
+        <main class="">
+            <div id = "search">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="search for names...">
+                <ul id="myUL">
+                    <li><a href="#">Adele</a></li>
+                    <li><a href="#">Alicia</a></li>
+                    <li><a href="#">Billy</a></li>
+                    <li><a href="#">Bobby</a></li>
+                    <li><a href="#">Calvin</a></li>
+                    <li><a href="#">Christina</a></li>
+                    <li><a href="#">Cindy</a></li>
+                    <li><a href="#">Aria</a></li>
+                    
+                </ul>  
+            
+            
+            </div>
+
+
+
+
+        </main>
+        <footer>
+            <h3>Dry Oar &copy; 2022 - Matthew Cline</h3>
+            <h3><a target="_blank"  href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3><a target="_blank" href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a target="_blank"  href="https://facebook.com">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a target="_blank" href="https://twitter.com">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a target="_blank" href="https://instagram.com">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+        </div>
+        <script>
+            function myFunction(){
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById('myInput');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myUL");
+                li = ul.getElementsByTagName('li');
+
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1){
+                        li[i].style.display = "";
+                    }else{
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+</body>
+</html>
